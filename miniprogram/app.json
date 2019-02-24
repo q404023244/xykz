@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -15,7 +16,5 @@
     "navigationBarTitleText": "校园客栈",
     "navigationBarTextStyle": "black"
   },
-  "tabbar":[
-    {"text":"首页"}
-  ]
+  "tabbar": []
 }

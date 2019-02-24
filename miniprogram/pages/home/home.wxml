@@ -1,0 +1,30 @@
+<view id='home'>
+
+  <view class="search">
+    <input value='中北大学'>
+    <icon type='search'></icon>
+    </input>
+    <input confirm-type='search' placeholder='全局搜索'>
+    <icon type='search'></icon>
+    </input>
+  </view>
+
+  <scroll-view scroll-x class='banner'>
+    <image wx:for="{{bannerList}}"
+    lazy-load
+    wx:key="{{index}}" 
+    src="{{item}}"></image>
+  </scroll-view>
+
+  <view class="nav">
+  <image src='../../images/home-nav.png'>
+    <navigator>抢店位</navigator>
+    </image>
+      <image src='../../images/home-nav.png'>
+    <navigator>抢券</navigator>
+    </image>
+      <image src='../../images/home-nav.png'>
+    <navigator>敬请期待</navigator>
+    </image>
+  </view>
+</view>
